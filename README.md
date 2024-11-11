@@ -17,7 +17,7 @@ A SAR ADC includes a sample-and-hold circuit, DAC, comparator, and SAR logic. Ea
 ## Block Diagram of the SAR ADC IP
 
  <p align="center">
-  <img width="800" height="500" src="/Images/N/block.png">
+  <img width="800" height="500" src="/Images/block diagram.png">
 </p>
 
 
@@ -26,17 +26,20 @@ A SAR ADC includes a sample-and-hold circuit, DAC, comparator, and SAR logic. Ea
 ## Circuit Diagram of the Sample and Hold IP
 
  <p align="center">
-  <img width="800" height="500" src="/Images/N/circuit.png">
+  <img width="800" height="500" src="/Images/Screenshot.png">
 </p>
 
 ## Circuit Diagram of the Comparator IP
 
  <p align="center">
-  <img width="800" height="500" src="/Images/N/circuit.png">
+  <img width="800" height="500" src="/Images/2.png">
+</p>
+ <p align="center">
+   <img width="800" height="500" src="/Images/1.png">
 </p>
 
 
-## Pre-Layout Performance Characteristics
+## Pre-Layout Simulation
 
 ###  Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
 
