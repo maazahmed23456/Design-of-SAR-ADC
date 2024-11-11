@@ -1,20 +1,31 @@
 
 
-# SAR Analog to Digital Converter
+# SAR ADC for Biomedical Applications
 This project is my final year major project and is still in development. This projects aims to perfrom layout of a SAR ADC and analyse and improve upon the performance prameters. Currently the prelayout design and simulation of Sample and Hold Circuit and Comparator are completed 
 
-*Note: Circuit requires further designing . Design yet to be modified.*
+*Note: Circuit requires further designing*
 
 
-## A Glance at the SAR ADC IP
+## A Glance at the SAR ADC 
 
-A Successive Approximation Register (SAR) ADC is an efficient ADC architecture known for its balance of speed, power, and resolution, widely used in data acquisition, medical devices, audio, and low-power IoT systems. It operates by performing a binary search to approximate the input voltage level in successive steps, starting from the most significant bit.
+Rapid advancements in micro-machining and microelectronics over the last few years
+have accelerated the growth of implanted medical devices that greatly improve a person’s
+life. These devices first gather the signals from different nodes in/on the body,
+and then, they condition, multiplex, and digitize the signals. Thus, an analog-to-digital
+converter (ADC), which must continuously convert a variety of analog electrophysiological
+signals to digital codes, is one of the most crucial and power-hungry components.
+For implantable medical devices, the successive approximation register (SAR)
+ADC is a good choice. In this paper, a low-power single-ended SAR ADC architecture
+is proposed to offer good compromises between power efficiency, conversion
+accuracy, and design complexity. The proposed architecture supports 8-bit resolution
+at a sampling rate of 1 MS/s. Using a 90-nm CMOS process with 1.8 V supply voltage
 
-A SAR ADC includes a sample-and-hold circuit, DAC, comparator, and SAR logic. Each bit is determined sequentially, creating a digital output that closely matches the analog input. Key design goals are low power, high SNR, low THD, and maintaining linearity. Challenges include minimizing power and noise while improving resolution and tolerance to process and temperature variations.
+- Bootstrapped Sample and Hold Circuits
+- Dynamic Latch Comparator
+- Capacitive DAC
+- SAR Register
 
-**Upload your paper on Github and give a link to it**
-
-## Block Diagram of the SAR ADC IP
+## Block Diagram of the SAR ADC 
 
  <p align="center">
   <img width="800" height="500" src="/Images/block diagram.png">
@@ -23,13 +34,13 @@ A SAR ADC includes a sample-and-hold circuit, DAC, comparator, and SAR logic. Ea
 
 
 
-## Circuit Diagram of the Sample and Hold IP
+## Circuit Diagram of the Sample and Hold Circuit
 
  <p align="center">
   <img width="800" height="500" src="/Images/Screenshot.png">
 </p>
 
-## Circuit Diagram of the Comparator IP
+## Circuit Diagram of the Comparator Circuit
 
  <p align="center">
   <img width="800" height="500" src="/Images/2.png">
@@ -41,47 +52,19 @@ A SAR ADC includes a sample-and-hold circuit, DAC, comparator, and SAR logic. Ea
 
 ## Pre-Layout Simulation
 
-###  Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
+###  Transient Analysis of Sample and Hold
 
 
  <p align="center">
-  <img width="800" height="500" src="/Images/N/PRE/pre_temp.png">
+  <img width="800" height="500" src="/Images/switch.png">
 </p>
 
 
-###  Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
+###  Transient Analysis of Comparator
 
 
  <p align="center">
-  <img width="800" height="500" src="/Images/N/PRE/pre_supply.png">
-</p>
-
-###  Temperature Coefficient of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
-
-
- <p align="center">
-  <img width="800" height="500" src="/Images/N/PRE/pre_tc.png">
-</p>
-
-###  Voltage Coefficient of Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
-
-
- <p align="center">
-  <img width="800" height="500" src="/Images/N/PRE/pre_vc.png">
-</p>
-
-###  Start-Up Time of Vbgp @ RL = 100M ohms plot
-
-
- <p align="center">
-  <img width="800" height="500" src="/Images/N/PRE/pre_startup.png">
-</p>
-
-
-###  On-Off-Current of Vbgp wrt Enable @ RL = 100M ohms plot
-
- <p align="center">
-  <img width="1000" height="500" src="/Images/N/PRE/pre_c.png">
+  <img width="800" height="500" src="/Images/compagood.png">
 </p>
 
 **Note: Current without Inverter for Enable Logic**
@@ -94,36 +77,33 @@ A SAR ADC includes a sample-and-hold circuit, DAC, comparator, and SAR logic. Ea
 
 ## Future Work
 
-1. Improved matching techniques such as Common Centroid / Interdigitisation need to be implemented while laying out the current mirror.
-2. PNR for the designed circuit is yet to performed using the Open Source Tool provided by the OpenROAD project.
-3. Corner Analysis Testing of the bandgap reference circuit is yet to be performed.
-4. The load driving capability needs to be improved by addition of a buffer block such as an OTA or a common drain amplifier.
-5. To adjust the reference voltage resistors must be trimmed using fuses, hence, resistor trimming must be employed in the circuit.
-6. The design must be improved to provide a higher PSRR.
-7. In the future an OTA based bandgap reference circuit will be developed with improved performance characteristics. Also, a second order bandgap reference will be studied and developed, to improve the temperature coefficient.
-8. To solve the problem of unwanted parasitic BJTs being extracted due to the modification made in the Technology File.
+1. **Enhance SNDR and SFDR:** Use optimized capacitor sizing and layout to minimize mismatch, enhancing signal-to-noise distortion ratio (SNDR) and spurious free dynamic range (SFDR).
+
+2. **Improve Effective Number of Bits (ENOB):** Design a high-precision, low-offset comparator to increase accuracy, contributing to a higher ENOB.
+
+3. **Reduce Noise:** Implement low-noise reference and power supply management techniques to suppress noise contributions from external sources.
+
+4. **Optimize Switching Energy:** Use advanced DAC switching techniques (e.g., split-capacitor switching) to minimize power consumption and switching noise, crucial for handling low-frequency ECG signals.
+
+5. **Fabricate and Test with Real Signals:** Plan for IC fabrication and real-time testing with ECG signal acquisition to validate performance, ensuring reliable operation in medical applications.
 
 ## Contributors 
 
-- **Sheryl Serrao** 
-- **Kunal Ghosh** 
-- **Philipp Gühring** 
+- **Maaz Ahmed** 
+- **Krishna Mouli** 
+- **Sandeep** 
 
 
 
 ## Acknowledgments
 
 
-- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
-- Philipp Gühring, Software Architect, LibreSilicon Assocation
-- Saroj Rout, Associate Professor & Chief Mentor of VLSI Center of Excellence SIT, Bhubaneswar, India
-- Santunu Sarangi, Asst. Professor, SIT, Bhubaneswar, India
-- Tim Edwards, Senior Vice President of Analog and Design at efabless corporation
-- Ankur Sah, M.Tech Embedded Systems, NIT Jamshedpur
+- Dr.Ediga Raghuveera , AdHoc Facukty , NIT AP (mentor)
+- Dr.Kiran Kumar Gurrala , Assistant Professor , NIT AP
+- Dr.Puli Kishore Kumar , Assistant Professor , NIT AP
+- Harika Banala , PhD , NIT AP
 
 ## Contact Information
 
-- Sheryl Serrao, Undergraduate Student, Mumbai University sherylcorina@gmail.com
-- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
-- Philipp Gühring, Software Architect, LibreSilicon Assocation pg@futureware.at
-- Dr. Gaurav Trivedi Co-Principal Investigator, EICT Academy, IIT Guwahati trivedi@iitg.ac.in
+- Shaik Maaz Ahmed , maazahmed23456@gmail.com
+
