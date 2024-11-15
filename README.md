@@ -25,6 +25,11 @@ at a sampling rate of 1 MS/s. Using a 90-nm CMOS process with 1.8 V supply volta
 - Capacitive DAC
 - SAR Register
 
+## Progress
+Till now we have been able to do the circuit design of the bootstrapped sample and hold circuit and dynamic latch comparator and perfomr simulation in Cadence Virtuoso Suite using the gpdk090 PDK. Our next goal will be to complet the circuit design of remaining components and then perform layout.
+
+
+
 ## Block Diagram of the SAR ADC 
 
  <p align="center">
