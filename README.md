@@ -114,7 +114,7 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
 ## Acknowledgments
 
 
-- Dr.Ediga Raghuveera , AdHoc Facukty , NIT AP (mentor)
+- Dr.Ediga Raghuveera , AdHoc Faculty , NIT AP (mentor)
 - Dr.Kiran Kumar Gurrala , Assistant Professor , NIT AP
 - Dr.Puli Kishore Kumar , Assistant Professor , NIT AP
 - Harika Banala , PhD , NIT AP
