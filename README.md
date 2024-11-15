@@ -77,6 +77,10 @@ at a sampling rate of 1 MS/s. Using a 90-nm CMOS process with 1.8 V supply volta
 
 ## Future Work
 
+- Design the remaining SAR logic block and Capactive DAC
+- Perfrom prelayout simulation of everythihng together to show working of SAR ADC
+- Perform the layout of each components and perfrom post layout simulation and verify , Complete LVS and DRC
+
 1. **Enhance SNDR and SFDR:** Use optimized capacitor sizing and layout to minimize mismatch, enhancing signal-to-noise distortion ratio (SNDR) and spurious free dynamic range (SFDR).
 
 2. **Improve Effective Number of Bits (ENOB):** Design a high-precision, low-offset comparator to increase accuracy, contributing to a higher ENOB.
