@@ -25,6 +25,13 @@ at a sampling rate of 1 MS/s. Using a 90-nm CMOS process with 1.8 V supply volta
 - Capacitive DAC
 - SAR Register
 
+## Base Paper
+
+This project was inspired by the work of **D.M. Ellaithy**, who designed a low-power 8-bit SAR ADC for medical devices. For a detailed description of the ADC design, refer to the following paper:
+
+Ellaithy, D.M. (2024). *A low-power 8-bit 1-MS/s single-ended SAR ADC in 130-nm CMOS for medical devices*. *Journal of Electrical Systems and Information Technology*, 11, 21. [DOI: 10.1186/s43067-024-00147-z](https://doi.org/10.1186/s43067-024-00147-z)
+
+
 ## Progress
 Till now we have been able to do the circuit design of the bootstrapped sample and hold circuit and dynamic latch comparator and perfomr simulation in Cadence Virtuoso Suite using the gpdk090 PDK. Our next goal will be to complete the circuit design of remaining components and then perform layout.
 
