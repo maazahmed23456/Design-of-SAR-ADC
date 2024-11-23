@@ -61,7 +61,7 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
    <img width="800" height="500" src="/Images/1.png">
 </p>
 
-## Circuit Diagram of the Sample and Hold Circuit
+## Circuit Diagram of the SAR
 
  <p align="center">
   <img width="800" height="500" src="/Images/SAR SCHEMATIC.png">
