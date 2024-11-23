@@ -85,8 +85,6 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
   <img width="800" height="500" src="/Images/compagood.png">
 </p>
 
-**Note: Current without Inverter for Enable Logic**
-
 
 
 ***************
