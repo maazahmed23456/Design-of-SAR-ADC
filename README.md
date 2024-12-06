@@ -55,13 +55,19 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
 ## Circuit Diagram of the Comparator Circuit
 
  <p align="center">
-  <img width="800" height="500" src="/Images/COMPC.png">
+  <img width="800" height="500" src="/Images/COMPC.jpg">
 </p>
 
 ## Circuit Diagram of the SAR
 
  <p align="center">
-  <img width="800" height="500" src="/Images/SARC.png">
+  <img width="800" height="500" src="/Images/SARC.jpg">
+</p>
+
+## Circuit Diagram of the DAC
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/DACC.jpg">
 </p>
 
 
@@ -71,7 +77,7 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
 
 
  <p align="center">
-  <img width="800" height="500" src="/Images/switch.png">
+  <img width="800" height="500" src="/Images/BSS.jpg">
 </p>
 
 
@@ -79,7 +85,7 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
 
 
  <p align="center">
-  <img width="800" height="500" src="/Images/compagood.png">
+  <img width="800" height="500" src="/Images/COMPS.jpg">
 </p>
 
 
