@@ -49,22 +49,19 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
 ## Circuit Diagram of the Sample and Hold Circuit
 
  <p align="center">
-  <img width="800" height="500" src="/Images/Screenshot.png">
+  <img width="800" height="500" src="/Images/BSC.jpg">
 </p>
 
 ## Circuit Diagram of the Comparator Circuit
 
  <p align="center">
-  <img width="800" height="500" src="/Images/2.png">
-</p>
- <p align="center">
-   <img width="800" height="500" src="/Images/1.png">
+  <img width="800" height="500" src="/Images/COMPC.png">
 </p>
 
 ## Circuit Diagram of the SAR
 
  <p align="center">
-  <img width="800" height="500" src="/Images/SAR SCHEMATIC.png">
+  <img width="800" height="500" src="/Images/SARC.png">
 </p>
 
 
