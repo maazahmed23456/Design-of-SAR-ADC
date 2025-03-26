@@ -53,9 +53,19 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
 </p>
 
 ## Circuit Diagram of the Comparator Circuit
-
+- Strong arm comparator
  <p align="center">
-  <img width="800" height="500" src="/Images/COMPC.jpg">
+  <img width="800" height="500" src="/Images/strongarm.png">
+</p>
+
+- RS Latch
+ <p align="center">
+  <img width="800" height="500" src="/Images/rslatch.png">
+</p>
+
+- Combined latched comparator
+ <p align="center">
+  <img width="800" height="500" src="/Images/fullcomp.png">
 </p>
 
 ## Circuit Diagram of the SAR
