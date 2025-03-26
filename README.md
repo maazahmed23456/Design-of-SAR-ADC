@@ -71,13 +71,13 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
 ## Circuit Diagram of the SAR
 
  <p align="center">
-  <img width="800" height="500" src="/Images/SARC.jpg">
+  <img width="800" height="500" src="/Images/sar.jpg">
 </p>
 
 ## Circuit Diagram of the DAC
 
  <p align="center">
-  <img width="800" height="500" src="/Images/DACC.jpg">
+  <img width="800" height="500" src="/Images/dac.jpg">
 </p>
 
 
@@ -95,7 +95,21 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
 
 
  <p align="center">
-  <img width="800" height="500" src="/Images/COMPS.jpg">
+  <img width="800" height="500" src="/Images/compsim.png">
+</p>
+
+###  Transient Analysis of DAC
+
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/compsim.png">
+</p>
+
+###  Transient Analysis of SAR
+
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/compsim.png">
 </p>
 
 
