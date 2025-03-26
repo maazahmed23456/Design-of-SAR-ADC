@@ -129,8 +129,10 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
 
 
  <p align="center">
-  <img width="800" height="500" src="/Images/full sim.png">
+  <img width="800" height="500" src="/Images/finalsim.png">
 </p>
+
+**Currently figuring out to reduce and improve the final adc simulation results. As soon as satisfied with the results will move on to layout steps**
 
 
 
