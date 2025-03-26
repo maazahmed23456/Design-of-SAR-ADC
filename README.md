@@ -102,14 +102,21 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
 
 
  <p align="center">
-  <img width="800" height="500" src="/Images/compsim.png">
+  <img width="800" height="500" src="/Images/dac sim.png">
 </p>
 
 ###  Transient Analysis of SAR
-
+- **SIMULATION WHEN COMP = 1**
 
  <p align="center">
-  <img width="800" height="500" src="/Images/compsim.png">
+  <img width="800" height="500" src="/Images/sar sim2.png">
+</p>
+
+###  Transient Analysis of SAR
+- **SIMULATION WHEN COMP = 0**
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/sar sim.png">
 </p>
 
 
@@ -120,8 +127,6 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
 
 ## Future Work
 
-- Design the remaining SAR logic block and Capactive DAC
-- Perfrom prelayout simulation of everythihng together to show working of SAR ADC
 - Perform the layout of each components and perfrom post layout simulation and verify , Complete LVS and DRC
 
 1. **Enhance SNDR and SFDR:** Use optimized capacitor sizing and layout to minimize mismatch, enhancing signal-to-noise distortion ratio (SNDR) and spurious free dynamic range (SFDR).
@@ -141,9 +146,7 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
 - **Sandeep** 
 
 
-
 ## Acknowledgments
-
 
 - Dr.Ediga Raghuveera , AdHoc Faculty , NIT AP (mentor)
 - Dr.Kiran Kumar Gurrala , Assistant Professor , NIT AP
