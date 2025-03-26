@@ -80,6 +80,12 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
   <img width="800" height="500" src="/Images/dac.jpg">
 </p>
 
+## Circuit Diagram of the FULL ADC
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/final.png">
+</p>
+
 
 ## Pre-Layout Simulation
 
@@ -117,6 +123,13 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
 
  <p align="center">
   <img width="800" height="500" src="/Images/sar sim.png">
+</p>
+
+###  Transient Analysis of FULL ADC
+
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/full sim.png">
 </p>
 
 
