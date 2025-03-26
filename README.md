@@ -21,8 +21,8 @@ accuracy, and design complexity. The proposed architecture supports 8-bit resolu
 at a sampling rate of 1 MS/s. Using a 90-nm CMOS process with 1.8 V supply voltage
 
 - Bootstrapped Sample and Hold Circuits
-- Dynamic Latch Comparator
-- Capacitive DAC
+- Strong Amr Latched Comparator
+- Resisitive DAC
 - SAR Register
 
 ## Base Paper
