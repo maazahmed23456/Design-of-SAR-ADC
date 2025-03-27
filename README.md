@@ -43,8 +43,11 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
   <img width="800" height="500" src="/Images/block diagram.png">
 </p>
 
+## Block Diagram of the SAR ADC 
 
-
+ <p align="center">
+  <img width="800" height="500" src="/Images/TARGET.png">
+</p>
 
 ## Circuit Diagram of the Sample and Hold Circuit
 
@@ -84,6 +87,12 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
 
  <p align="center">
   <img width="800" height="500" src="/Images/final.png">
+</p>
+
+## Power Consumption (per conversion) 
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/block diagram.png">
 </p>
 
 ## Power Consumption Table
@@ -140,6 +149,12 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
 
  <p align="center">
   <img width="800" height="500" src="/Images/finalsim.png">
+</p>
+
+## Total power consumption (per conversion)
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/POWER.png">
 </p>
 
 **Currently figuring out to reduce and improve the final adc simulation results. As soon as satisfied with the results will move on to layout steps**
