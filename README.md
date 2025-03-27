@@ -89,22 +89,6 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
   <img width="800" height="500" src="/Images/final.png">
 </p>
 
-## Power Consumption (per conversion) 
-
- <p align="center">
-  <img width="800" height="500" src="/Images/block diagram.png">
-</p>
-
-## Power Consumption Table
-
-| COMPONENT                         | POWER CONSUMED (uW) |
-|-----------------------------------|--------------------|
-| BOOTSTRAP SAMPLING SWITCH        | 5.03               |
-| STRONGARM LATCHED COMPARATOR       | 0.053              |
-| R-2R LADDER DAC                  | 25                 |
-| SUCCESSIVE APPROXIMATION REGISTER | 0.1                |
-| **TOTAL**                         | **30.183 uW**      |
-
 
 ## Pre-Layout Simulation
 
