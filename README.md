@@ -141,7 +141,7 @@ Till now we have been able to do the circuit design of the bootstrapped sample a
   <img width="800" height="500" src="/Images/POWER.png">
 </p>
 
-**Currently figuring out to reduce and improve the final adc simulation results. As soon as satisfied with the results will move on to layout steps**
+**Currently figuring out to reduce distortions and improve the final adc simulation results. As soon as satisfied with the results will move on to layout steps**
 
 
 
